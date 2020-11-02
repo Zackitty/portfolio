@@ -1,0 +1,41 @@
+.profileImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+
+.sideBarName {
+  display: flex;
+  margin-left: 100px;
+}
+.sideBarDiv {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  margin-top: 120px;
+}
+
+.restDiv {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileImage{
+  margin-left: 75px;
+}
+.aboutMe {
+  margin-left: 30px;
+  width: 30vw;
+  justify-content: center;
+}
+
+.linksDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+}
