@@ -1,0 +1,9 @@
+.splashDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectsDiv {
+  margin-top: 50px;
+  margin-left: 450px
+}

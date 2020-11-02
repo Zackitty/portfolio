@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Cause.css'
 function Cause() {
   return (
     <div className="causeContainer" >

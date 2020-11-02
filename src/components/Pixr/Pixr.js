@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Pixr.css'
 function Pixr() {
   return (
     <div className="pixrContainer" >

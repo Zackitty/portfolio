@@ -1,0 +1,8 @@
+.pixrImage {
+  height: 200px;
+  width:200px;
+}
+.pixrContainer{
+display: flex;
+  flex-direction: column;
+}

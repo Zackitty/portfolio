@@ -1,0 +1,9 @@
+.surveyDonkeyImage {
+  height: 200px;
+  width:200px;
+}
+
+.surveyDonkeyContainer{
+  display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,10 @@
+.jiuTubeImage {
+  height: 200px;
+  width: 200px;
+}
+
+
+.jiuTubeContainer{
+  display: flex;
+    flex-direction: column;
+  }
