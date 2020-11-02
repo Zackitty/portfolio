@@ -7,3 +7,28 @@
   display: flex;
     flex-direction: column;
   }
+
+  .gitHubLinkContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+
+.surveyDonkeyComponent{
+  font-size: 30px;
+}
+.surveyDonkeyLinkContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.surveyDonkeyTechnologies {
+  display: flex;
+  justify-content: space-around;
+}
+
+.surveyDonkeyImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh
+}

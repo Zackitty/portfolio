@@ -7,3 +7,22 @@
   display: flex;
     flex-direction: column;
   }
+
+  .causeImageContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh
+}
+
+.causeComponent{
+  font-size: 30px;
+}
+.causeLinkDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.causeTechnologies {
+  display: flex;
+  justify-content: space-around;
+}

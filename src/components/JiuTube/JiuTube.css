@@ -2,9 +2,25 @@
   height: 200px;
   width: 200px;
 }
-
-
+.jiutubeComponent{
+  font-size: 30px;
+}
+.jiuTubeLinkDiv{
+  display: flex;
+  justify-content: center;
+}
 .jiuTubeContainer{
   display: flex;
     flex-direction: column;
   }
+
+  .jiuTubeImageContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh
+}
+.jiuTubeTechnologies {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}

@@ -3,7 +3,12 @@ import './JiuTube.css'
 function JiuTube() {
   return (
     <div className="jiuTubeContainer" >
+      <div className="jiuTubeLinkDiv">
       <a href="https://thejiutube.herokuapp.com/" className="jiutubeComponent">The JiuTube</a>
+      </div>
+      <div className="gitHubLinkContainer">
+        <a className="jiuTubeGithub" href="https://github.com/Zackitty/JiuTube">GitHub Link</a>
+      </div>
       <div className="jiuTubeTechnologies">
       <a className="reactLink" href="https://reactjs.org/">React</a> 
         | 
@@ -23,7 +28,9 @@ function JiuTube() {
         | 
         <a className="dockerLink" href="https://www.docker.com/">Docker</a>
       </div>
+      <div className="jiuTubeImageContainer">
       <img className="jiuTubeImage"  src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/5e/1205725/3177d53ad41f5105c7ed79a999f51526-original.jpg"></img>
+      </div>
     </div>
   )
 }
