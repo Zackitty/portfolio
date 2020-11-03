@@ -6,6 +6,11 @@
 .causeContainer{
   display: flex;
     flex-direction: column;
+    border: thick double #32a1ce;
+    border-radius: 50px;
+    margin-bottom: 3vh;
+    width: 43vw;
+    background-color: white;
   }
 
   .causeImageContainer{
@@ -16,13 +21,23 @@
 
 .causeComponent{
   font-size: 30px;
+  margin-bottom: 1vh
 }
 .causeLinkDiv{
   display: flex;
   justify-content: center;
+  margin-top: 2vh;
 }
 
 .causeTechnologies {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2vh;
+  margin-left: 10px;
+  width: 40vw;
+}
+
+.causeBottomTechnologies{
+  display:flex;
+  justify-content: center;
 }

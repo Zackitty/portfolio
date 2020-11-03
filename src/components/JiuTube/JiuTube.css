@@ -4,23 +4,56 @@
 }
 .jiutubeComponent{
   font-size: 30px;
+  margin-bottom: 1vh
 }
 .jiuTubeLinkDiv{
   display: flex;
   justify-content: center;
+  margin-top: 2vh;
 }
 .jiuTubeContainer{
   display: flex;
     flex-direction: column;
+    border: thick double #32a1ce;
+    border-radius: 50px;
+    margin-bottom: 3vh;
+    width: 43vw;
+    background-color: white;
   }
 
   .jiuTubeImageContainer{
     display: flex;
-    justify-content: center;
-    margin-bottom: 5vh
+    margin-left: 12.5vw;
+    margin-bottom: 5vh;
+   
 }
 .jiuTubeTechnologies {
   display: flex;
   justify-content: space-around;
-  width: 600px;
+  margin-left: 20px;
+  width: 40vw;
+
+}
+
+.jiuTubeTechnologiesContainer{
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.bottomTechnologies {
+  display: flex;
+  justify-content: space-around;
+  width: 20vw
+}
+
+.bottomTechnologiesContainer {
+display: flex;
+justify-content: center;
+
+}
+
+.gitHubLinkContainer {
+  margin-bottom: 1vh;
+  font-size: 20px;
 }

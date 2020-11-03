@@ -9,6 +9,7 @@ function Cause() {
        <div className="gitHubLinkContainer">
         <a className="causeGithub" href="https://github.com/sambrady0652/change-clone">GitHub Link</a>
       </div>
+      <div className="causeTechnologiesContainer">
       <div  className="causeTechnologies">
         <a className="reactLink" href="https://reactjs.org/">React</a> 
         | 
@@ -21,9 +22,12 @@ function Cause() {
         <a className="awsLink" href="https://aws.amazon.com/">AWS</a> 
         | 
       <a className="grommetLink" href="https://v2.grommet.io/">Grommet</a>
-      |
+      </div>
+      <div className="causeBottomTechnologies">
       <a className="dockerLink" href="https://www.docker.com/">Docker</a>
-        </div>
+      </div>
+      </div>
+        
        <div className="causeImageContainer">
        <img className="causeImage" src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/d7/1205730/e012e98129ad583ec78c2cdd9f807d8a-original.ico"></img>
     </div>

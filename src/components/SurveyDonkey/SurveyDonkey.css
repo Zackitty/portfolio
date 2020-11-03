@@ -6,24 +6,35 @@
 .surveyDonkeyContainer{
   display: flex;
     flex-direction: column;
+    border: thick double #32a1ce;
+    border-radius: 50px;
+    margin-bottom: 5vh;
+    background-color: white;
+    width: 43vw;
   }
 
   .gitHubLinkContainer{
     display: flex;
     justify-content: center;
+    
   }
 
 
 .surveyDonkeyComponent{
   font-size: 30px;
+  margin-bottom: 1vh
 }
 .surveyDonkeyLinkContainer{
   display: flex;
   justify-content: center;
+  margin-top: 2vh;
 }
 
 .surveyDonkeyTechnologies {
   display: flex;
+  margin-bottom: 5vh;
+  width: 30vw;
+  margin-left: 80px;
   justify-content: space-around;
 }
 

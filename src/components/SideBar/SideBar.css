@@ -2,20 +2,28 @@
   height: 150px;
   width: 150px;
   border-radius: 100%;
+  margin-left: 10vw;
 }
 
 
 .sideBarName {
   display: flex;
-  margin-left: 100px;
+  margin-left: 10vw;
+  font-size: 25px;
+ 
 }
 .sideBarDiv {
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50vw;
+  margin-left: 30px;
+  width: 35vw;
   margin-top: 120px;
+  border: thick double #32a1ce;
+  border-radius: 50px;
+  background-color: white;
+  
 }
 
 .restDiv {
@@ -25,9 +33,7 @@
   justify-content: center;
 }
 
-.profileImage{
-  margin-left: 75px;
-}
+
 .aboutMe {
   margin-left: 30px;
   width: 30vw;
@@ -37,5 +43,16 @@
 .linksDiv {
   display: flex;
   flex-direction: column;
-  margin-left: 65px;
+  margin-left: 9vw;
+  margin-bottom: 5vh
+  
+}
+
+a:visited {
+  color: blue;
+}
+
+a:focus {
+  color:purple;
+  outline: none;
 }

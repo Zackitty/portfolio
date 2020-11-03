@@ -9,6 +9,7 @@ function JiuTube() {
       <div className="gitHubLinkContainer">
         <a className="jiuTubeGithub" href="https://github.com/Zackitty/JiuTube">GitHub Link</a>
       </div>
+      <div className="jiuTubeTechnologiesContainer">
       <div className="jiuTubeTechnologies">
       <a className="reactLink" href="https://reactjs.org/">React</a> 
         | 
@@ -21,12 +22,16 @@ function JiuTube() {
         <a className='obsLink' href="https://obsproject.com/">OBS</a>
         | 
         <a className="socketIOLink" href="https://socket.io/">SocketIO</a> 
-        | 
-        <a className="flaskLink" href="https://flask.palletsprojects.com/">Flask</a>
-        | 
+       </div> 
+       <div className="bottomTechnologiesContainer">
+        <div className="bottomTechnologies">
         <a className="sqlAlchemyLink" href="https://www.sqlalchemy.org/">SQL-Alchemy</a> 
         | 
         <a className="dockerLink" href="https://www.docker.com/">Docker</a>
+        | 
+        <a className="flaskLink" href="https://flask.palletsprojects.com/">Flask</a>
+     </div>
+      </div>
       </div>
       <div className="jiuTubeImageContainer">
       <img className="jiuTubeImage"  src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/5e/1205725/3177d53ad41f5105c7ed79a999f51526-original.jpg"></img>
