@@ -1,6 +1,6 @@
 .causeImage {
-  height: 200px;
-  width:200px;
+  height: 40vh;
+  width: 35vw
 }
 
 .causeContainer{
@@ -16,7 +16,9 @@
   .causeImageContainer{
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh
+    margin-bottom: 5vh;
+    height: 40vh;
+   
 }
 
 .causeComponent{

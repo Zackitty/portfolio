@@ -1,6 +1,6 @@
 .pixrImage {
-  height: 200px;
-  width:200px;
+  height: 40vh;
+  width: 35vw
   
 }
 .pixrContainer{
@@ -32,7 +32,9 @@ display: flex;
 
 .pixrImageContainer {
   display: flex;
-  margin-left: 12.5vw;
+ justify-content: center;
     margin-bottom: 5vh;
+    height: 40vh;
+
   margin-bottom: 10vh
 }

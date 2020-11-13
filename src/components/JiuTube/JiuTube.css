@@ -1,6 +1,6 @@
 .jiuTubeImage {
-  height: 200px;
-  width: 200px;
+  height: 40vh;
+  width: 35vw
 }
 .jiutubeComponent{
   font-size: 30px;
@@ -23,8 +23,11 @@
 
   .jiuTubeImageContainer{
     display: flex;
-    margin-left: 12.5vw;
+ 
     margin-bottom: 5vh;
+    height: 40vh;
+    justify-content: center;
+    
    
 }
 .jiuTubeTechnologies {

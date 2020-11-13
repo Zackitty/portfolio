@@ -1,6 +1,6 @@
 .surveyDonkeyImage {
-  height: 200px;
-  width:200px;
+  height: 40vh;
+  width: 35vw
 }
 
 .surveyDonkeyContainer{
@@ -41,5 +41,7 @@
 .surveyDonkeyImageContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 10vh
+  height: 40vh;
+  margin-bottom: 5vh;
+  
 }
