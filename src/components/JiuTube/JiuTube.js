@@ -34,7 +34,7 @@ function JiuTube() {
       </div>
       </div>
       <div className="jiuTubeImageContainer">
-      <img className="jiuTubeImage"  src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/5e/1205725/3177d53ad41f5105c7ed79a999f51526-original.jpg"></img>
+      <img className="jiuTubeImage"  src="https://64.media.tumblr.com/6ac1cbba035b75f9c9cd6af90be990c4/9bbe58e4a43aa6f5-4e/s2048x3072/5363fd0b840e07bb7a081bf232e1bde70b34fbf6.png"></img>
       </div>
     </div>
   )

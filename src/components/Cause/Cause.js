@@ -29,7 +29,7 @@ function Cause() {
       </div>
         
        <div className="causeImageContainer">
-       <img className="causeImage" src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/d7/1205730/e012e98129ad583ec78c2cdd9f807d8a-original.ico"></img>
+       <img className="causeImage" src="https://64.media.tumblr.com/806f8ed47285ec5deaf44ae134cb2bc0/c9d0d1eff5e6459f-5d/s1280x1920/7e4de237093051365e8164af417fd1c8517ccc2d.png"></img>
     </div>
     </div>
   )
