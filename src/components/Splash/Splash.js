@@ -12,7 +12,6 @@ function Splash() {
   <div className="projectsDiv">
     <JiuTube />
     <Cause />
-    <Pixr />
     <SurveyDonkey />
   </div>
   </div>
