@@ -6,6 +6,7 @@ import Pixr from '../Pixr/Pixr'
 import SurveyDonkey from "../SurveyDonkey/SurveyDonkey"
 import './Splash.css'
 function Splash() {
+  console.log("dafsd")
   return (
     <div className="splashDiv">
   <SideBar />
