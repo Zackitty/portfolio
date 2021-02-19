@@ -29,8 +29,11 @@ function Cause() {
       </div>
         
        <div className="causeImageContainer">
-       <img className="causeImage" src="https://64.media.tumblr.com/806f8ed47285ec5deaf44ae134cb2bc0/c9d0d1eff5e6459f-5d/s1280x1920/7e4de237093051365e8164af417fd1c8517ccc2d.png"></img>
+       <a href="http://changeclone.herokuapp.com/"><img className="causeImage" src="https://64.media.tumblr.com/806f8ed47285ec5deaf44ae134cb2bc0/c9d0d1eff5e6459f-5d/s1280x1920/7e4de237093051365e8164af417fd1c8517ccc2d.png"></img></a>
     </div>
+    <div className="projectDescriptionContainer">
+      <p className='projectDescription'>Cause is a FullStack clone of the website Change. It uses React.js for the front end where it uses the Redux store to keep track of users and their petitions they've created, Amazon Cloud Services to allow users to host photos of their petitions and in updates. The backend uses Python's Flask and SQL-Alchemy frameworks to run the server and databases.</p>
+      </div>
     </div>
   )
 }

@@ -24,7 +24,7 @@
   .jiuTubeImageContainer{
     display: flex;
  
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     height: 40vh;
     justify-content: center;
     
@@ -59,4 +59,18 @@ justify-content: center;
 .gitHubLinkContainer {
   margin-bottom: 1vh;
   font-size: 20px;
+}
+
+.projectDescription{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 3vh;
+  width: 30vw;
+}
+
+.projectDescriptionContainer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }

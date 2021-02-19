@@ -34,7 +34,10 @@ function JiuTube() {
       </div>
       </div>
       <div className="jiuTubeImageContainer">
-      <img className="jiuTubeImage"  src="https://64.media.tumblr.com/6ac1cbba035b75f9c9cd6af90be990c4/9bbe58e4a43aa6f5-4e/s2048x3072/5363fd0b840e07bb7a081bf232e1bde70b34fbf6.png"></img>
+      <a href="https://thejiutube.herokuapp.com/"><img className="jiuTubeImage"  src="https://64.media.tumblr.com/6ac1cbba035b75f9c9cd6af90be990c4/9bbe58e4a43aa6f5-4e/s2048x3072/5363fd0b840e07bb7a081bf232e1bde70b34fbf6.png"></img></a>
+      </div>
+      <div className="projectDescriptionContainer">
+      <p className='projectDescription'>The JiuTube is a full stack React.js application that allows users to watch a live streaming Jiujitsu video player  through OBS and Twitch streaming technology while chatting about the matches on the Socket.IO real time chat that serves a chat history via api calls to the backend Flask server to query the  SQL-Alchemy database for all previous comments.</p>
       </div>
     </div>
   )

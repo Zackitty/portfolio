@@ -14,9 +14,9 @@ function SideBar() {
         </p>
         </div>
         <div className="linksDiv">
-        <a className="gitHub" href="https://github.com/Zackitty">View My Github Profile</a>
-        <a className="linkedIn" href="https://www.linkedin.com/in/zachery-haley-90a1a21b1/">View My LinkedIn Profile</a>
-        <a className="angelList" href="https://angel.co/u/zachery-haley">View My Angellist Profile</a>
+        <a className="gitHub" href="https://github.com/Zackitty"><img id='gitHubImg' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'></img></a>
+        <a className="linkedIn" href="https://www.linkedin.com/in/zachery-haley-90a1a21b1/"><img id='linkedInImg' src='https://64.media.tumblr.com/acc3dd431e538e2a981e455a6b3b89c4/17785df92d6ab936-f1/s400x600/4e162669930278aac1df2f76980a148ea4eecc70.jpg'></img></a>
+        <a className="angelList" href="https://angel.co/u/zachery-haley"><img id='angelListImg' src='https://64.media.tumblr.com/7f4da5ae3e4e1ff1fc0ac5ecf23ff60a/e83c72cf409830cb-ad/s400x600/bad884f0990fcb3d63b4e7493523213e9dec84a2.jpg'></img> </a>
         </div>
     </div>
   )
