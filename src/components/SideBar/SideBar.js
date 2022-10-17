@@ -10,7 +10,7 @@ function SideBar() {
       <div className="restDiv">
       <img className="profileImage" src="https://64.media.tumblr.com/c7f599a13721fcbee15b169f16f7b970/952b1c2d3b269b09-0e/s1280x1920/5a90e1fb2783b84552d436751a4141cbc8a4e90a.jpg"/>
       <p className='aboutMe'>
-        I'm a web developer having recently completed 1000 hours at App Academy in a fast paced immersion program as well as a jiujitsu competitor that brings my competitive mindset to every job. 
+      Software Engineer and Web Developer with over a year in the industry working in both Mobile and Web Development for both Startup and Fortune 500 companies. Interested in bringing my technical experience from my roles as both a Developer and Devops to focus on ensuring a consistent and quality product. 
         </p>
         </div>
         <div className="linksDiv">

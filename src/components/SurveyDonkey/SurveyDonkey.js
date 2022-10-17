@@ -1,8 +1,11 @@
- import React from 'react'
- import './SurveyDonkey.css'
- function SurveyDonkey() {
+import React, { useRef } from 'react'
+import './SurveyDonkey.css'
+
+
+
+const SurveyDonkey = ( { projectsRef } ) => {
    return (
-     <div className="surveyDonkeyContainer" >
+     <div ref={projectsRef} className="surveyDonkeyContainer" >
         <div className="surveyDonkeyLinkContainer">
           <a href="https://thesurveydonkey.herokuapp.com/" className="surveyDonkeyComponent">Survey Donkey</a>
         </div>

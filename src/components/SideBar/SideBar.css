@@ -10,10 +10,9 @@
   display: flex;
   margin-left: 11.5vw;
   font-size: 25px;
- 
 }
+
 .sideBarDiv {
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +27,6 @@
 
 .restDiv {
   display: flex;
-  
   align-items: center;
   justify-content: center;
 }
@@ -40,15 +38,14 @@
   width: 30vw;
   height: 20vh;
   font-size: 2vh;
-align-items: center;
+  align-items: center;
 }
 
 .linksDiv {
   display: flex;
   size: 5vh;
   margin-left: 5vw;
-  margin-bottom: 5vh
-  
+  margin-bottom: 5vh 
 }
 
 a:visited {
@@ -67,6 +64,7 @@ a:focus {
 #linkedInImg{
   height:45px;
 }
+
 #angelListImg{
   height:45px;
 }

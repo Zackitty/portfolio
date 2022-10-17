@@ -6,10 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-attachment: fixed;
-  background-image: url("https://64.media.tumblr.com/547e45b04938faf72c0b4c749a1dd616/b4df42b34e7c11f0-3d/s1280x1920/755fab1655de2e798d316ae3facd149928c021e2.jpg")
+  background-color: #00008B;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
 }

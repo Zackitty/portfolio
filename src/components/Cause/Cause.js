@@ -1,8 +1,9 @@
 import React from 'react'
 import './Cause.css'
-function Cause() {
+
+const Cause = ( { experienceRef } ) => {
   return (
-    <div className="causeContainer" >
+    <div ref={experienceRef} className="causeContainer" >
         <div className="causeLinkDiv">
        <a href="http://changeclone.herokuapp.com/" className="causeComponent">Cause</a>
        </div>

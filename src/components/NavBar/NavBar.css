@@ -1,0 +1,78 @@
+#navbar-container {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(0, 0, 82);
+    position: absolute;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+#navbar-inner-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar-left-inner-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 5%;
+}
+
+#navbar-left-inner-container > .navbar-link {
+    padding-top: 1%;
+}
+
+#navbar-logo {
+    height: 100%;
+    width: 5%;
+}
+
+#navbar-logo-name {
+    color: aqua;
+    padding-left: 2%;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 
+    -1px -1px 1px #111, 
+    2px 2px 1px grey;
+}
+
+#navbar-right-inner-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.navbar-link, .navbar-link:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: aquamarine;
+}
+
+#navbar-resume-wrapper {
+    display: flex;
+    width: 10%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    outline-color: aqua;
+    outline-style: solid;
+    border-radius: 2%
+}
+
+#navbar-resume-wrapper:hover {
+    opacity: 0.5;
+}

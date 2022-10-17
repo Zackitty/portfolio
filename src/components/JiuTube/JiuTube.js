@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './JiuTube.css'
-function JiuTube() {
+
+
+const JiuTube = ( { aboutRef } ) => {
   return (
-    <div className="jiuTubeContainer" >
+    <div ref={aboutRef} className="jiuTubeContainer" >
       <div className="jiuTubeLinkDiv">
       <a href="https://thejiutube.herokuapp.com/" className="jiutubeComponent">The JiuTube</a>
       </div>

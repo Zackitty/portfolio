@@ -1,19 +1,51 @@
-.splashDiv {
+.splash-container {
   display: flex;
   flex-direction: row;
-  width: 30vw
-}
-
-.projectsDiv {
-  margin-top: 50px;
-  margin-left: 48vw;
-  width: 500px;
-}
-
-.sideBarDivided{
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
+#splash-greeting-container {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#splash-text-container {
+
+}
+
+#splash-name-wrapper {
+  width: 100%;
+}
+
+#splash-name-text {
+  font-family: 'Roboto Slab';
+  font-size: 70px;
+  color: aqua;
+  text-shadow: 
+  1px 2px 1px #111, 
+  2px 2px 1px aquamarine;
+}
+
+#splash-description-wrapper {
+  font-family: 'Roboto Slab';
+}
+
+#splash-description-text {
+  color: white;
+  font-size: 25px;
+}
+
+#splash-profile-image {
+height: 75vh;
+width: 25vw;
+box-shadow: 
+50px 50px 0px aqua, 
+50px 50px 10px white;
+}

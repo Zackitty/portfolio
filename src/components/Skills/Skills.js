@@ -10,11 +10,11 @@ function Skills() {
       <p class="skills">SKILLS</p>
       </div>
       <div class="skillDiv">
-        <a className="reactLink" href="https://reactjs.org/">Python</a> 
+        <a className="reactLink" href="https://www.python.org/">Python</a> 
         |
-        <a className="reactLink" href="https://reactjs.org/">Javascript</a> 
+        <a className="reactLink" href="https://www.javascript.com/">Javascript</a> 
         |
-        <a className="reactLink" href="https://reactjs.org/">Node.js</a> 
+        <a className="reactLink" href="https://angular.io/">Node.js</a> 
         |
         <a className="reactLink" href="https://reactjs.org/">React</a> 
       </div>
