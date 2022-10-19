@@ -1,0 +1,127 @@
+#about-me-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#about-me-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+#about-me-h1-wrapper {
+    width: 25%;
+
+}
+
+#about-me-h1-wrapper > h1 {
+    color: aqua;
+    text-shadow: 
+    -1px -1px 1px #111, 
+    2px 2px 1px grey;
+    font-style: italic;
+}
+
+
+.about-me-wrapper {
+    display: flex;
+    width: 50%;
+    padding-bottom: 1.5%;
+    padding-left: 25%;
+    color: white;
+    font-size: 18px;
+    box-shadow: white;
+}
+
+.about-me-wrapper > div > a,
+.about-me-wrapper > div > a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+.about-me-wrapper > div > a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#about-me-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+#about-me-links-container-one {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-links-container-one > div {
+    display: flex;
+    align-items: center;
+    height: 3vh;
+}
+
+#about-me-links-container-one > div > p {
+    color: aqua;
+}
+
+#about-me-links-container-one > div > a,
+#about-me-links-container-one > div > a:visited  {
+    text-decoration: none;
+    color: yellow;
+}
+
+#about-me-links-container-one > div > a:hover {
+    color: aquamarine;
+    opacity: 1;
+}
+
+#about-me-links-container-two {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25%;
+}
+
+#about-me-links-container-two > div {
+    display: flex;
+    align-items: center;
+    height: 3vh;
+}
+
+#about-me-links-container-two > div > p {
+    color: aqua;
+}
+
+#about-me-links-container-two > div > a,
+#about-me-links-container-two > div > a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+#about-me-links-container-two > div > a:hover {
+    color: aquamarine;
+}
+
+#about-me-image-wrapper {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+#jiujitsu-image {
+    height: 50%;
+    width: 50%;
+    box-shadow: 
+50px -50px 0px aqua, 
+50px -50px 10px white;
+}

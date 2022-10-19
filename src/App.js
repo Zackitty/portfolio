@@ -39,10 +39,10 @@ function App() {
             <Route path="/nope">
                 <Splash/>
             </Route>
-            <Route path="/">
+            <Route path="/#about">
                 <About aboutRef={aboutRef} />
             </Route>
-            <Route path="/#experience">
+            <Route path="/">
                 <Experience experienceRef={experienceRef} />
             </Route>
             <Route path="/#projects">
