@@ -7,7 +7,7 @@ function Splash() {
   return (
     <div className='splash-container'>
       <div id='splash-greeting-container'>
-        <div id="splash-text-container">
+        <div id='splash-text-container'>
           <div id='splash-name-wrapper'>
             <text id='splash-name-text'>
               Zachery Haley

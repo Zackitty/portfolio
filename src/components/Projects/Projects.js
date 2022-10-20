@@ -3,20 +3,20 @@ import './Projects.css'
 import Carousel from 'react-material-ui-carousel'
 import Project from './Project/Project'
 import projectsData from './ProjectsData'
-import kittyindicator from "./kittyindicator.svg"
+import kittyindicator from './kittyindicator.svg'
 
 
 const Projects = () => {
 
 
     return (
-        <div id="projects-container">
+        <div id='projects-container'>
             <h1>PROJECTS</h1>
             <Carousel
                 height={700}
-                sx={{ width: "50%" }}
+                sx={{ width: '50%' }}
                 IndicatorIcon={
-                    <img id="projects-indicator" src={kittyindicator} />
+                    <img id='projects-indicator' src={kittyindicator} />
                 }
                 indicatorIconButtonProps={{
                     style: {

@@ -16,23 +16,23 @@ function App() {
      <NavBar  />
      <SocialMedia />
         <Switch>
-            <Route path="/">
+            <Route path='/'>
                 <Splash/>
                 <About />
                 <Experience />
                 <Projects />
                 <Contact />
             </Route>
-            <Route path="/about">
+            <Route path='/about'>
                 <About />
             </Route>
-            <Route path="/experience">
+            <Route path='/experience'>
                 <Experience />
             </Route>
-            <Route path="/projects">
+            <Route path='/projects'>
                 <Projects />
             </Route>
-            <Route path="/contact">
+            <Route path='/contact'>
                 <Contact />
             </Route>
         </Switch>

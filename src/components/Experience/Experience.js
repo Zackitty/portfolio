@@ -10,14 +10,14 @@ function TabPanel(props) {
 
     return (
         <div
-            role="tabpanel"
+            role='tabpanel'
             hidden={value !== index}
             id={`vertical-tabpanel-${index}`}
             aria-labelledby={`vertical-tab-${index}`}
             {...other}
         >
             {value === index && (
-                <Box id="experience-tab-box">
+                <Box id='experience-tab-box'>
                     <Typography>{children}</Typography>
                 </Box>
             )}
@@ -36,24 +36,24 @@ function a11yProps(index) {
 const Experience = () => {
 
     const [value, setValue] = useState(0);
-    const [jbVisit, setJBVisit] = useState("tab-visited");
-    const [ghVisit, setGHVisit] = useState("tab-notvisited");
-    const [jbVisitButton, setJBVisitButton] = useState("rgb(167, 255, 255, .3)");
-    const [ghVisitButton, setGHVisitButton] = useState("rgb(167, 255, 255, 0)");
+    const [jbVisit, setJBVisit] = useState('tab-visited');
+    const [ghVisit, setGHVisit] = useState('tab-notvisited');
+    const [jbVisitButton, setJBVisitButton] = useState('rgb(167, 255, 255, .3)');
+    const [ghVisitButton, setGHVisitButton] = useState('rgb(167, 255, 255, 0)');
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
         if (newValue === 0) {
-            setGHVisit("tab-notvisited");
-            setJBVisit("tab-visited");
-            setGHVisitButton("rgb(167, 255, 255, 0)");
-            setJBVisitButton("rgb(167, 255, 255, .3)");
+            setGHVisit('tab-notvisited');
+            setJBVisit('tab-visited');
+            setGHVisitButton('rgb(167, 255, 255, 0)');
+            setJBVisitButton('rgb(167, 255, 255, .3)');
         };
         if (newValue === 1) {
-            setGHVisit("tab-visited");
-            setJBVisit("tab-notvisited");
-            setGHVisitButton("rgb(167, 255, 255, .3)");
-            setJBVisitButton("rgb(167, 255, 255, 0)");
+            setGHVisit('tab-visited');
+            setJBVisit('tab-notvisited');
+            setGHVisitButton('rgb(167, 255, 255, .3)');
+            setJBVisitButton('rgb(167, 255, 255, 0)');
         };
     };
 
@@ -64,20 +64,20 @@ const Experience = () => {
                 <h1>
                     EXPERIENCE
                 </h1>
-                <Box id="experience-box">
+                <Box id='experience-box'>
                     <Tabs
-                        orientation="vertical"
-                        variant="scrollable"
+                        orientation='vertical'
+                        variant='scrollable'
                         value={value}
                         onChange={handleChange}
-                        id="experience-tabs"
+                        id='experience-tabs'
 
                     >
                         <Tab sx={{ background: jbVisitButton }} label={<p id={jbVisit}>JB HUNT</p>} {...a11yProps(0)} />
                         <Tab sx={{ background: ghVisitButton }} label={<p id={ghVisit}>GYMHOP</p>} {...a11yProps(1)} />
                     </Tabs>
-                    <TabPanel className="experience-tabpanel" value={value} index={0}>
-                        <p className='experience-at'>Software Engineer 1 @ <a href="https://www.jbhunt.com/">JB Hunt</a></p>
+                    <TabPanel className='experience-tabpanel' value={value} index={0}>
+                        <p className='experience-at'>Software Engineer 1 @ <a href='https://www.jbhunt.com/'>JB Hunt</a></p>
                         <p className='experience-date'>October 2021 - September 2022</p>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
@@ -102,8 +102,8 @@ const Experience = () => {
                             <p className='experience-bullets'>Participated in the fast paced Agile Kanban methodology of software development.</p>
                         </div>
                     </TabPanel>
-                    <TabPanel className="experience-tabpanel" value={value} index={1}>
-                        <p className='experience-at'>Frontend Mobile Development Engineer @ <a href="https://angel.co/company/gymhop-1">GymHop</a></p>
+                    <TabPanel className='experience-tabpanel' value={value} index={1}>
+                        <p className='experience-at'>Frontend Mobile Development Engineer @ <a href='https://angel.co/company/gymhop-1'>GymHop</a></p>
                         <p className='experience-date'>July 2021 - October 2021</p>
                         <div>
                             <p className='exerpience-pointer'>▸</p>

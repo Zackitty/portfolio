@@ -39,16 +39,16 @@ const Contact = () => {
                     justifyContent: 'space-around',
                     alignItems: 'center',
                     background: 'rgb(167, 255, 255, .1)',
-                    boxShadow: "0px 5px 15px black",
-                    borderRadius: "3%"
+                    boxShadow: '0px 5px 15px black',
+                    borderRadius: '3%'
                 }}>
                 <div>
                     <Button
                         onClick={handleOpenEmail}
-                        variant="outlined"
+                        variant='outlined'
                         sx={{
                             color: 'white', borderWidth: 3, borderColor: 'aqua', fontSize: '20px',
-                            boxShadow: "0px 5px 15px black", height: '100%', width: '100%'
+                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%'
                         }}>EMAIL</Button>
                     <Modal
                         open={openEmail}
@@ -56,7 +56,7 @@ const Contact = () => {
                     >
                         <Box
                             sx={style}>
-                            <p className="contact-modal-title">
+                            <p className='contact-modal-title'>
                                 zacheryahaley@gmail.com
                             </p>
                         </Box>
@@ -65,17 +65,17 @@ const Contact = () => {
                 <div>
                     <Button
                         onClick={handleOpenPhone}
-                        variant="outlined"
+                        variant='outlined'
                         sx={{
                             color: 'white', borderWidth: 3, borderColor: 'aqua', fontSize: '20px',
-                            boxShadow: "0px 5px 15px black", height: '100%', width: '100%',
+                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%',
                         }}>PHONE</Button>
                     <Modal
                         open={openPhone}
                         onClose={handleClosePhone}
                     >
                         <Box sx={style}>
-                            <p className="contact-modal-title">
+                            <p className='contact-modal-title'>
                                 501-773-7093
                             </p>
                         </Box>
