@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
@@ -7,52 +7,33 @@ import About  from './components/About/About';
 import Experience  from './components/Experience/Experience';
 import Projects  from './components/Projects/Projects';
 import Contact  from './components/Contact/Contact';
+import SocialMedia from './components/SocialMedia/SocialMedia'
 
 function App() {
 
-  const [page, setPage] = useState(false)
-  const ref = useRef(null);
-  const aboutRef = useRef(null);
-  const experienceRef = useRef(null);
-  const projectsRef = useRef(null);
-  const contactRef = useRef(null);
-
-  const handleLinkClick = async() => {  
-    if (page === 'about') {
-      aboutRef.current?.scrollIntoView( { behavior: "smooth" } )
-    }
-    if (page === 'experience') {
-      experienceRef.current?.scrollIntoView( { behavior: "smooth" } )
-    }
-    if (page === 'projects') {
-      projectsRef.current?.scrollIntoView( { behavior: "smooth" } )
-    }
-    if (page === 'contact') {
-      projectsRef.current?.scrollIntoView( { behavior: "smooth" } )
-    }
-  };
-
   return (
     <BrowserRouter>
-     <NavBar handleLinkClick={handleLinkClick} setPage={setPage} ref={ref} />
+     <NavBar  />
+     <SocialMedia />
         <Switch>
-            <Route path="/nope">
-                <Splash/>
-            </Route>
-            <Route path="/#about">
-                <About aboutRef={aboutRef} />
-            </Route>
             <Route path="/">
-                <Experience experienceRef={experienceRef} />
+                <Splash/>
+                <About />
+                <Experience />
+                <Projects />
+                <Contact />
             </Route>
-            <Route path="/#projects">
-                <Projects projectsRef={projectsRef} />
+            <Route path="/about">
+                <About />
             </Route>
-            <Route path="/#contact">
-                <Contact contactRef={contactRef} />
+            <Route path="/experience">
+                <Experience />
             </Route>
-            <Route path="/#resume">
-                <Contact contactRef={contactRef} />
+            <Route path="/projects">
+                <Projects />
+            </Route>
+            <Route path="/contact">
+                <Contact />
             </Route>
         </Switch>
       </BrowserRouter>

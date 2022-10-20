@@ -1,15 +1,16 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import profilepicture from './profile-picture.jpg'
 import './Splash.css'
+
 function Splash() {
-  
+
   return (
     <div className='splash-container'>
       <div id='splash-greeting-container'>
         <div id="splash-text-container">
           <div id='splash-name-wrapper'>
             <text id='splash-name-text'>
-              Zachery Haley 
+              Zachery Haley
             </text>
           </div>
           <div id='splash-description-wrapper'>
@@ -17,10 +18,10 @@ function Splash() {
               Software Engineer, Web Developer, and Jiujitsu Competitor
             </text>
           </div>
-        </div>      
+        </div>
       </div>
       <div id='splash-profile-picture'>
-      <img id='splash-profile-image' src={profilepicture} />
+        <img id='splash-profile-image' src={profilepicture} />
       </div>
 
     </div>

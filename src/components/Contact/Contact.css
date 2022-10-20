@@ -1,0 +1,31 @@
+#contact-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-container > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5%
+}
+
+.contact-modal-title {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: 'Roboto';
+}
+
+#contact-container > h1 {
+    color: aqua;
+    font-size: 10vh;
+    box-shadow: 0px 3px 0px 0px yellow;
+
+}
