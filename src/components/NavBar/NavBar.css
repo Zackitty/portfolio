@@ -6,7 +6,7 @@
     width: 100%;
     height: 6%;
     background-color: #00008B;
-    box-shadow: 0 5px 5px -5px rgba(0,0,0,.2);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .2);
     border-bottom: 2px solid yellow;
 }
 
@@ -24,41 +24,96 @@
     padding-left: 5%;
 }
 
-#navbar-left-inner-container > .navbar-link {
+#navbar-left-inner-container>.navbar-link {
     padding-top: 1%;
 }
 
-#navbar-logo {
-    height: 100%;
-    width: 5%;
+@media screen and (min-width: 686px) {
+
+    .navbar-link,
+    .navbar-link:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 5%;
+        color: white;
+        text-decoration: none;
+    }
+
+    #navbar-right-inner-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 5%;
+    }
+
+
+    #navbar-logo-name,
+    #navbar-logo-name:visited {
+        color: aqua;
+        margin-left: 2%;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 20px;
+        text-shadow:
+            -1px -1px 1px #111,
+            2px 2px 1px grey;
+        text-decoration: none;
+        text-align: justify;
+        padding: 1%;
+        border-radius: 10%;
+    }
+
+    #navbar-logo-name:hover {
+        background-color: rgb(167, 255, 255, .3);
+    }
+
+    #navbar-logo {
+        height: 100%;
+        width: 10%;
+    }
 }
 
-#navbar-logo-name {
-    color: aqua;
-    padding-left: 2%;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 20px;
-    text-shadow: 
-    -1px -1px 1px #111, 
-    2px 2px 1px grey;
-}
+@media screen and (max-width: 685px) {
 
-#navbar-right-inner-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 5%;
-}
 
-.navbar-link, .navbar-link:visited {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    padding-left: 5%;
-    color: white;
-    text-decoration: none;
+    .navbar-link,
+    .navbar-link:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 2%;
+        color: white;
+        text-decoration: none;
+        font-size: 75%;
+    }
+
+    #navbar-right-inner-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+
+    #navbar-logo-name,
+    #navbar-logo-name:visited {
+        color: aqua;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 18px;
+        text-shadow:
+            -1px -1px 1px #111,
+            2px 2px 1px grey;
+        text-decoration: none;
+    }
+
+    #navbar-logo {
+        height: 100%;
+        width: 10%;
+        margin-left: -6%;
+    }
 }
 
 .navbar-link:hover {

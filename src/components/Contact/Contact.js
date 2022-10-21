@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Contact.css'
 import { Button, Modal, Box } from '@mui/material';
+import colors from '../../utils/colors';
 
 const style = {
     position: 'absolute',
@@ -29,18 +30,30 @@ const Contact = () => {
 
 
     return (
-        <div id='contact-container'>
+        <Box id='contact-container'>
             <h1>Contact Me</h1>
+            <Box sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                boxShadow: colors['boxShadow'],
+                marginTop: 5,
+                padding: 5
+            }}>
+            <p>Any questions can be directed toward my email or phone number. 
+                I'm located in New Jersey, so I'll respond in an orderly fashion 
+                knowing my timezone is Eastern.
+            </p>
             <Box
                 sx={{
                     display: 'flex',
-                    width: '20%',
-                    height: '10%',
-                    justifyContent: 'space-around',
+                    width: '100%',
+                    height: '100px',
+                    justifyContent: 'center',
                     alignItems: 'center',
-                    background: 'rgb(167, 255, 255, .1)',
-                    boxShadow: '0px 5px 15px black',
-                    borderRadius: '3%'
+                    borderRadius: '3%',
+                    '@media screen and (max-width: 1100px)': {
+                        marginLeft: '10%'}
+
                 }}>
                 <div>
                     <Button
@@ -48,7 +61,7 @@ const Contact = () => {
                         variant='outlined'
                         sx={{
                             color: 'white', borderWidth: 3, borderColor: 'aqua', fontSize: '20px',
-                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%'
+                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%', marginRight: 1
                         }}>EMAIL</Button>
                     <Modal
                         open={openEmail}
@@ -68,7 +81,7 @@ const Contact = () => {
                         variant='outlined'
                         sx={{
                             color: 'white', borderWidth: 3, borderColor: 'aqua', fontSize: '20px',
-                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%',
+                            boxShadow: '0px 5px 15px black', height: '100%', width: '100%', marginLeft: 1
                         }}>PHONE</Button>
                     <Modal
                         open={openPhone}
@@ -82,7 +95,8 @@ const Contact = () => {
                     </Modal>
                 </div>
             </Box>
-        </div>
+            </Box>
+        </Box>
     )
 }
 

@@ -1,17 +1,32 @@
 #contact-container {
     display: flex;
-    height: 100vh;
+    height: 1800px;
     width: 100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 300px;
+    padding-top: 300px;
 }
 
-#contact-container > div > div {
+#contact-container > div {
+    background-color: rgb(167, 255, 255, .1);
+}
+
+#contact-container > div > div > div {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 1.5%
+}
+
+#contact-container > div > p {
+    color: white;
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .contact-modal-title {
@@ -20,12 +35,17 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    font-style: 'Roboto';
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
 }
 
 #contact-container > h1 {
     color: aqua;
     font-size: 10vh;
-    box-shadow: 0px 3px 0px 0px yellow;
+    box-shadow: 0px 4px 0px 0px yellow;
+    margin-bottom: -.0001%;
+    text-shadow: 
+    -1px -1px 1px #111, 
+    2px 2px 1px grey;
 
 }

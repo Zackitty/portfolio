@@ -1,18 +1,22 @@
 import React from 'react'
 import './About.css'
-import jiujitsu from './jiujitsu.jpg'
+import Technologies from '../Technologies/Technologies';
+import { Box } from '@mui/material';
 
 const About = () => {
 
 
     return (
-        <div id='about-me-container'>
-            <div id='about-me-text-container'>
-                <div id='about-me-h1-wrapper'>
-                    <h1>
-                        ABOUT ME
-                    </h1>
-                </div>
+        <Box sx={{ marginTop: 30}}
+        id='about-me-container'>
+            <div id='about-me-image-wrapper'>
+                <img id='jiujitsu-image' src={'https://64.media.tumblr.com/ec6f71ba3394438b1272c16ea062e348/34e934438efdb8f1-2d/s540x810/318a39a75c478cbc2383ad6d8d049f7d8fc045a0.jpg'} />
+            </div>
+            <Box
+             id='about-me-text-container'>
+                <Box id='about-me-h1-wrapper'>
+                    ABOUT ME
+                </Box>
                 <div className='about-me-wrapper'>
                     <div>
                         I'm a Web Developer, Software Engineer, and Brazilian Jiujitsu competitor that brings my competitive mindset and initiative towards growth into everything I do.
@@ -33,58 +37,24 @@ const About = () => {
                         Some of my favorite technologies I've worked with recently include:
                         <div id='about-me-links'>
                             <div id='about-me-links-container-one'>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.javascript.com/'>Javascript</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.python.org/'>Python</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.java.com'>Java</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://spring.io/projects/spring-boot'>Spring Boot</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://angular.io/'>Angular</a>
-                                </div>
+                                <Technologies link={'https://www.javascript.com/'} technology={'Javascript'} />
+                                <Technologies link={'https://www.python.org/'} technology={'Python'} />
+                                <Technologies link={'https://www.java.com'} technology={'Java'} />
+                                <Technologies link={'https://spring.io/projects/spring-boot'} technology={'Spring Boot'} />
+                                <Technologies link={'https://angular.io/'} technology={'Angular'} />
                             </div>
                             <div id='about-me-links-container-two'>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://reactjs.org/'>React</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.docker.com/'>Docker</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://reactnative.dev/'>React-Native</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.cypress.io/'>Cypress</a>
-                                </div>
-                                <div>
-                                    <p>▸</p>
-                                    <a href='https://www.elastic.co/'>Elastic</a>
-                                </div>
-
+                                <Technologies link={'https://reactjs.org/'} technology={'React'} />
+                                <Technologies link={'https://www.docker.com/'} technology={'Docker'} />
+                                <Technologies link={'https://www.reactnative.dev/'} technology={'React-Native'} />
+                                <Technologies link={'https://www.cypress.io/'} technology={'Cypress'} />
+                                <Technologies link={'https://www.elastic.co/'} technology={'Elastic'} />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id='about-me-image-wrapper'>
-                <img id='jiujitsu-image' src={jiujitsu} />
-            </div>
-        </div>
+            </Box>
+        </Box>
     )
 }
 

@@ -15,8 +15,11 @@ code {
 }
 
 #root {
+  display: flex;
   height: 100vh;
   width: 100%;
+  flex-shrink: 0;
+  flex-direction: column;
 }
 
 html {

@@ -1,39 +1,18 @@
-.splash-container {
+#splash-container {
   display: flex;
-  justify-self: center;
-  align-self: center;
   flex-direction: row;
-  height: 100vh;
+  height: 1200px;
   width: 100vw;
-  justify-content: center;
+
   align-items: center;
+ margin-top: 150px;
 }
 
-#splash-greeting-container {
-  display: flex;
-  height: 50%;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#splash-container > div:first-child {
+  background-color: rgb(167, 255, 255, .1);
+  box-shadow: 0px 5px 15px black;
 }
 
-#splash-name-wrapper {
-  width: 100%;
-}
-
-#splash-name-text {
-  font-family: 'Roboto Slab';
-  font-size: 70px;
-  color: aqua;
-  text-shadow: 
-  1px 2px 1px #111, 
-  2px 2px 1px aquamarine;
-}
-
-#splash-description-wrapper {
-  font-family: 'Roboto Slab';
-}
 
 #splash-description-text {
   color: white;
@@ -42,10 +21,44 @@
   padding-bottom: 3%;
 }
 
-#splash-profile-image {
-height: 75vh;
-width: 25vw;
-box-shadow: 
-50px 50px 0px aqua, 
-50px 50px 10px white;
+@media screen and (min-width: 685px) {
+  #splash-name-text {
+    font-family: 'Roboto Slab';
+    font-size: 70px;
+    color: aqua;
+    text-shadow:
+      1px 2px 1px #111,
+      2px 2px 1px aquamarine;
+  }
+
+  #splash-profile-image {
+    display: flex;
+    height: 75vh;
+    width: 25vw;
+    box-shadow:
+      50px 50px 0px aqua,
+      50px 50px 10px white;
+  }
+}
+
+
+@media screen and (max-width: 685px) {
+
+  #splash-profile-image {
+    height: 50vh;
+    width: 25vw;
+    margin-left: -20%;
+    box-shadow:
+      50px 50px 0px aqua,
+      50px 50px 10px white;
+  }
+
+  #splash-name-text {
+    font-family: 'Roboto Slab';
+    font-size: 70px;
+    color: aqua;
+    text-shadow:
+      1px 2px 1px #111,
+      2px 2px 1px aquamarine;
+  }
 }
