@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.2.0",
-    "npm": "6.15.6"
+    "node": "16.17.0",
+    "npm": "8.15.0"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
