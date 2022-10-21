@@ -1,3 +1,4 @@
+@media screen and (min-width: 685px) {
 #contact-container {
     display: flex;
     height: 1800px;
@@ -6,8 +7,23 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 300px;
-    padding-top: 300px;
+    padding-top: 200px;
 }
+}
+
+@media screen and (max-width: 685px) {
+    #contact-container {
+        display: flex;
+        height: 1800px;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 300px;
+
+    }
+    }
+    
 
 #contact-container > div {
     background-color: rgb(167, 255, 255, .1);

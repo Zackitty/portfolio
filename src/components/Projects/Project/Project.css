@@ -61,15 +61,36 @@
     color: aqua;
 }
 
-#project-description-wrapper {
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(167, 255, 255, .1);
-    border-radius: 2%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+@media screen and (min-width: 801px) {
+
+    #project-description-wrapper {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(167, 255, 255, .1);
+        border-radius: 2%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+    
+    }   
+    
+
+}
+
+@media screen and (max-width: 800px) {
+     
+    #project-description-wrapper {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(167, 255, 255, .1);
+        border-radius: 2%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+        height: 250px;
+    }   
 
 }
 

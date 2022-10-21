@@ -31,8 +31,9 @@ const Contact = () => {
 
     return (
         <Box id='contact-container'>
-            <h1>Contact Me</h1>
-            <Box sx={{
+            <h1 id="contact-navigation">Contact Me</h1>
+            <Box 
+            sx={{
                 display: 'flex',
                 flexDirection: 'column',
                 boxShadow: colors['boxShadow'],
@@ -51,8 +52,6 @@ const Contact = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     borderRadius: '3%',
-                    '@media screen and (max-width: 1100px)': {
-                        marginLeft: '10%'}
 
                 }}>
                 <div>

@@ -34,6 +34,12 @@
         width: 100vw;
     }
 
+    #about-me-container  > div {
+        display: flex;
+        width: 100%;
+        margin-top: 200px;
+    }
+
     .about-me-wrapper {
         display: flex;
         width: 23vw;
@@ -95,6 +101,12 @@
         width: 100vw;
     }
 
+    #about-me-container  > div {
+        display: flex;
+        width: 100%;
+        margin-top: 200px;
+    }
+
     .about-me-wrapper {
         display: flex;
         width: 500px;
@@ -126,6 +138,22 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    #about-me-h1-wrapper {
+        width: 50%;
+        color: aqua;
+        text-shadow:
+            -1px -1px 1px #111,
+            2px 2px 1px grey;
+        font-size: 50px;
+        box-shadow: 0px 2px 0px 0px yellow;
+        padding-bottom: 2%;
+        margin-bottom: 3%;
+        margin-left: 0%;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+    }
+
     #about-me-text-container {
         display: flex;
         justify-content: center;
@@ -144,6 +172,14 @@
         width: 100vw;
         justify-content: center;
     }
+
+    #about-me-container  > div {
+        display: flex;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+
     .about-me-wrapper {
         display: flex;
         width: 70vw;

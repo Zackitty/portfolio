@@ -13,8 +13,13 @@ const Projects = () => {
         <div id='projects-container'>
             <h1>PROJECTS</h1>
             <Carousel
-                height={700}
-                sx={{ width: '50%' }}
+                sx={{
+                    width: '50%',
+                    '@media screen and (max-width: 800px)': {
+                        height: '800px',
+                        width: '500px'
+                    }
+                }}
                 IndicatorIcon={
                     <img id='projects-indicator' src={kittyindicator} />
                 }

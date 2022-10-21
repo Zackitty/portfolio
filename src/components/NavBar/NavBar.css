@@ -16,19 +16,19 @@
     width: 100%;
 }
 
-#navbar-left-inner-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    padding-left: 5%;
-}
 
 #navbar-left-inner-container>.navbar-link {
     padding-top: 1%;
 }
 
 @media screen and (min-width: 686px) {
+    #navbar-left-inner-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-left: 5%;
+    }
 
     .navbar-link,
     .navbar-link:visited {
@@ -77,6 +77,13 @@
 
 @media screen and (max-width: 685px) {
 
+    #navbar-left-inner-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-left: 5%;
+    }
 
     .navbar-link,
     .navbar-link:visited {
@@ -90,7 +97,7 @@
 
     #navbar-right-inner-container {
         display: flex;
-        width: 100%;
+        width: 20%;
         height: 100%;
         align-items: center;
         justify-content: flex-end;
