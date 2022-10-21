@@ -39,7 +39,7 @@ const projectsData = [
     {
         name: 'CAUSE',
         description: 'Cause is a FullStack clone of the website Change. It uses React.js for the front end where it uses the Redux store to keep track of users and their petitions they\'ve created, Amazon Cloud Services to allow users to host photos of their petitions and in updates. The backend uses Python\'s Flask for backend requests and SQL-Alchemy as an ORM to interact with the SQL Database',
-        livelink: 'http://changeclone.herokuapp.com/',
+        livelink: 'https://cause-change.herokuapp.com/',
         repository: 'https://github.com/sambrady0652/change-clone',
         img: 'https://64.media.tumblr.com/806f8ed47285ec5deaf44ae134cb2bc0/c9d0d1eff5e6459f-5d/s1280x1920/7e4de237093051365e8164af417fd1c8517ccc2d.png',
         technologies: [
