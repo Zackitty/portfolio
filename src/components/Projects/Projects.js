@@ -16,7 +16,7 @@ const Projects = () => {
                 sx={{
                     width: '50%',
                     '@media screen and (max-width: 800px)': {
-                        height: '800px',
+                        height: '1000px',
                         width: '500px'
                     }
                 }}
@@ -32,7 +32,10 @@ const Projects = () => {
                         width: 50,
                         marginLeft: 10,
                         padding: '10px',
-                        opacity: .3
+                        opacity: .3,
+                        '@media screen and (max-width: 800px)': {
+                            
+                        }
                     }
                 }}
                 activeIndicatorIconButtonProps={{
