@@ -59,7 +59,7 @@ const Experience = () => {
 
 
     return (
-        <div id='experience-container'>
+        <div id='experience'>
             <div id='experience-navigation'>
                 <h1>
                     EXPERIENCE

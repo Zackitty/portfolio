@@ -28,13 +28,13 @@
     
     }
 
-    #about-me-container {
+    #about-me {
         display: flex;
         height: 1200px;
         width: 100vw;
     }
 
-    #about-me-container  > div {
+    #about-me  > div {
         display: flex;
         width: 100%;
         margin-top: 100px;
@@ -95,13 +95,13 @@
         padding-left: 35px;
     
     }
-    #about-me-container {
+    #about-me {
         display: flex;
         height: 1200px;
         width: 100vw;
     }
 
-    #about-me-container  > div {
+    #about-me  > div {
         display: flex;
         width: 100%;
         margin-top: 200px;
@@ -166,14 +166,14 @@
     
     }
 
-    #about-me-container {
+    #about-me {
         display: flex;
         height: 1200px;
         width: 100vw;
         justify-content: center;
     }
 
-    #about-me-container  > div {
+    #about-me  > div {
         display: flex;
         width: 100%;
         margin-top: 200px;

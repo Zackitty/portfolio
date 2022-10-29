@@ -30,7 +30,7 @@ const Contact = () => {
 
 
     return (
-        <Box id='contact-container'>
+        <Box id='contact'>
             <h1 id="contact-navigation">Contact Me</h1>
             <Box 
             sx={{

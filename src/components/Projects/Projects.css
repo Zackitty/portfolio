@@ -1,4 +1,4 @@
-#projects-container {
+#projects {
     display: flex;
     height: 1200px;
     width: 100vw;
@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-#projects-container > h1 {
+#projects > h1 {
     padding-top: 2%;
     margin-bottom: -.5%;
     color: aqua;

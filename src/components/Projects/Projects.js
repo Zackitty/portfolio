@@ -10,7 +10,7 @@ const Projects = () => {
 
 
     return (
-        <div id='projects-container'>
+        <div id='projects'>
             <h1>PROJECTS</h1>
             <Carousel
                 sx={{
