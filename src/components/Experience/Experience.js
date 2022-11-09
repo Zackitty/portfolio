@@ -77,7 +77,7 @@ const Experience = () => {
                         <Tab sx={{ background: ghVisitButton }} label={<p id={ghVisit}>GYMHOP</p>} {...a11yProps(1)} />
                     </Tabs>
                     <TabPanel className='experience-tabpanel' value={value} index={0}>
-                        <p className='experience-at'>Software Engineer 1 @ <a href='https://www.jbhunt.com/'>JB Hunt</a></p>
+                        <p className='experience-at'>Software Engineer @ <a href='https://www.jbhunt.com/'>JB Hunt</a></p>
                         <p className='experience-date'>October 2021 - September 2022</p>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
