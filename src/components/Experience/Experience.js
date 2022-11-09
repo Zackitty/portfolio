@@ -82,12 +82,12 @@ const Experience = () => {
                         <div>
                             <p className='exerpience-pointer'>▸</p>
                             <p className='experience-bullets'>
-                                Migrated the Infrastructure Administration Application from Protractor to Cypress for consistent End to End testing.
+                            Migrated the Infrastructure Administration Application from Protractor to Cypress for performing Quality Assurance via consistent End to End automated testing.
                             </p>
                         </div>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
-                            <p className='experience-bullets'>Integrated both Flagger and Kustomize into backend microservices for consistent anytime deployments. </p>
+                            <p className='experience-bullets'>Integrated both Flagger and Kustomize into backend microservices for consistent anytime deployments.</p>
                         </div>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
@@ -103,7 +103,7 @@ const Experience = () => {
                         </div>
                     </TabPanel>
                     <TabPanel className='experience-tabpanel' value={value} index={1}>
-                        <p className='experience-at'>Frontend Mobile Development Engineer @ <a href='https://angel.co/company/gymhop-1'>GymHop</a></p>
+                        <p className='experience-at'>React Native Mobile Software Engineer @ <a href='https://angel.co/company/gymhop-1'>GymHop</a></p>
                         <p className='experience-date'>July 2021 - October 2021</p>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
@@ -115,7 +115,7 @@ const Experience = () => {
                         </div>
                         <div>
                             <p className='exerpience-pointer'>▸</p>
-                            <p className='experience-bullets'>Communicated with the backend developers on API’s and creating Seed Data to allow performance of QA on frontend features.</p>
+                            <p className='experience-bullets'>Communicated with the backend developers on creating APIs that the mobile screens could interact with and Seed Data that would allow performance of QA on frontend features automated integration tests.</p>
                         </div>
                     </TabPanel>
                 </Box>
