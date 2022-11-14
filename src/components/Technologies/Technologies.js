@@ -1,6 +1,5 @@
 import React from 'react'
 import './Technologies.css'
-import { Box } from '@mui/material';
 
 const Technologies = ({link, technology}) => {
 

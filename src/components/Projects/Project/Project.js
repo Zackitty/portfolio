@@ -7,7 +7,7 @@ const Project = ({ project }) => {
         <div id='project-container'>
             <h1>{project.name}</h1>
             <div id='project-img-wrapper'>
-                <img src={project.img} />
+                <img alt='Project' src={project.img} />
             </div>
             <div id='project-location-links'>
                 <div>

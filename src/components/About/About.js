@@ -11,7 +11,7 @@ const About = () => {
             id='about-me'>
             <div id='about-me-navigation'>
                 <div id='about-me-image-wrapper'>
-                    <img id='jiujitsu-image' src={'https://64.media.tumblr.com/ec6f71ba3394438b1272c16ea062e348/34e934438efdb8f1-2d/s540x810/318a39a75c478cbc2383ad6d8d049f7d8fc045a0.jpg'} />
+                    <img id='jiujitsu-image' alt='Jiujitsu' src={'https://64.media.tumblr.com/ec6f71ba3394438b1272c16ea062e348/34e934438efdb8f1-2d/s540x810/318a39a75c478cbc2383ad6d8d049f7d8fc045a0.jpg'} />
                 </div>
                 <Box
                     id='about-me-text-container'>

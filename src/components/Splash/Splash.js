@@ -30,7 +30,7 @@ function Splash() {
           width: '50%'
         }}
       id='splash-profile-picture'>
-        <img id='splash-profile-image' src={'https://64.media.tumblr.com/781c88e238229e95f10c1efab5396286/65534f6b07185a7b-db/s640x960/7ea5e6d97cca98f630415045dbe7b4e525ef5505.jpg'} />
+        <img id='splash-profile-image' alt='Splash Profile' src={'https://64.media.tumblr.com/781c88e238229e95f10c1efab5396286/65534f6b07185a7b-db/s640x960/7ea5e6d97cca98f630415045dbe7b4e525ef5505.jpg'} />
       </Box>
     </Box >
   )

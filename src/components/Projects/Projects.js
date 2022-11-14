@@ -21,7 +21,7 @@ const Projects = () => {
                     }
                 }}
                 IndicatorIcon={
-                    <img id='projects-indicator' src={kittyindicator} />
+                    <img id='projects-indicator' alt='Indicator Kitty' src={kittyindicator} />
                 }
                 indicatorIconButtonProps={{
                     style: {
