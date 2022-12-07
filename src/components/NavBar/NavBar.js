@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 const NavBar = () => {
 
     const handleResume = async () => {
-        let path = 'https://docs.google.com/document/d/1XsfOWz09MdY7D2luSGrTr6gqtXia2sXRVORO16oocrM';
+        let path = 'https://docs.google.com/document/d/1gYELTa2A-CONnWG-EmDwmeLwVt0lOR8bnbWW-afrx5I';
         window.open(path);
     }
 
